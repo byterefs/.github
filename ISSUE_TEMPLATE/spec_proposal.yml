@@ -1,0 +1,27 @@
+name: Specification proposal
+description: Propose an addition or change to the byterefs specification.
+labels: ["proposal"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What can you not currently express or do?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What should the specification say? Examples are very welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility
+      description: Would existing references or implementations be affected?
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
