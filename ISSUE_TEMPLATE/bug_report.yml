@@ -1,0 +1,20 @@
+name: Problem report
+description: Report an error, ambiguity or inconsistency in the specification or a tool.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+      description: Quote or link the relevant text or code.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Example or steps to reproduce
+      description: A minimal reference, file or command that shows the problem.
